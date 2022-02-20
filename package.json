@@ -1,21 +1,15 @@
 {
-    "name": "express1",
-    "version": "1.0.0",
-    "description": "This is test application",
-    "main": "app.js",
-    "scripts": {
-        "test": "test myapp"
-    },
-    "keywords": [
-        "express",
-        "webapp"
-    ],
-    "author": "Kishori",
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "^1.19.1",
-        "express": "^4.17.2",
-        "mongodb": "^2.2.33",
-        "nodemon": "^2.0.15"
-    }
+  "name": "onlineapp",
+  "version": "1.0.0",
+  "description": "this is simple web app ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "pooja gaikwad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
